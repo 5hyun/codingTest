@@ -6,28 +6,45 @@ function getMin(time) {
 
 function solution(fees, records) {
   var answer = [];
-  let carFees = [];
-
-  // In 타임 보관
-  let InList = [];
+  let inList = {};
+  let record = {};
+  let all = new Set();
 
   for (let i = 0; i < records.length; i++) {
-    let temp = records[i].split();
+    let car = records[i];
+    car = car.split(" ");
 
-    if (temp[2] === "IN") {
-      InList[temp[1]] = { time: getMin(temp[0]) };
-      carFees[temp[1]] = 0;
-      console.log(InList);
+    if (car[2] === "IN") {
+      inList[`${car[1]}`] = car[0];
+
+      if (!record[`${car[1]}`]) record[`${car[1]}`] = 0;
+
+      all.add(car[1]);
     } else {
-      let inTime = getMin(temp[0]) - InList[temp[1]].time;
-      carFees[temp[1]] +=
-        inTime <= fees[0]
-          ? 5000
-          : 5000 + Math.ceil((inTime / fees[2]) * fees[3]);
+      let now;
+      now = inList[car[1]];
+      delete inList[car[1]];
+
+      let time = getMin(car[0]) - getMin(now);
+      record[car[1]] = record[car[1]] + time;
     }
   }
 
-  console.log(carFees);
+  for (let i in inList) {
+    let time = getMin("23:59") - getMin(inList[i]);
+    record[i] += time;
+  }
+
+  all = Array.from(all).sort((a, b) => a - b);
+
+  for (let i of all) {
+    let price =
+      record[i] <= fees[0]
+        ? fees[1]
+        : fees[1] + Math.ceil((record[i] - fees[0]) / fees[2]) * fees[3];
+
+    answer.push(price);
+  }
 
   return answer;
 }
@@ -45,8 +62,3 @@ const records = [
   "23:00 5961 OUT",
 ];
 console.log(solution(fees, records));
-
-// let a = {};
-// a["sda"] = { a: 123, b: "234" };
-//
-// console.log(a);
