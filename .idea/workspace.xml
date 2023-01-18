@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a15d89f-395b-462e-90a7-7c8ee7030515" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/프로그래머스/양과 늑대.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/프로그래머스/주차 요금 계산.js" beforeDir="false" afterPath="$PROJECT_DIR$/프로그래머스/주차 요금 계산.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,19 +51,29 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Node.js.주차 요금 계산.js">
+  <component name="RunManager" selected="Node.js.양과 늑대.js">
     <configuration name="두 큐 합 같게 만들기.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="두 큐 합 같게 만들기.js" working-dir="$PROJECT_DIR$/프로그래머스">
       <method v="2" />
     </configuration>
     <configuration name="주차 요금 계산.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="주차 요금 계산.js" working-dir="$PROJECT_DIR$/프로그래머스">
       <method v="2" />
     </configuration>
+    <configuration name="양과 늑대.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="양과 늑대.js" working-dir="$PROJECT_DIR$/프로그래머스">
+      <method v="2" />
+    </configuration>
+    <configuration name="양궁대회.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/프로그래머스/양궁대회.js" working-dir="$PROJECT_DIR$/프로그래머스">
+      <method v="2" />
+    </configuration>
     <list>
+      <item itemvalue="Node.js.양궁대회.js" />
+      <item itemvalue="Node.js.양과 늑대.js" />
       <item itemvalue="Node.js.두 큐 합 같게 만들기.js" />
       <item itemvalue="Node.js.주차 요금 계산.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.양과 늑대.js" />
+        <item itemvalue="Node.js.양궁대회.js" />
         <item itemvalue="Node.js.주차 요금 계산.js" />
         <item itemvalue="Node.js.두 큐 합 같게 만들기.js" />
       </list>
@@ -85,7 +95,15 @@
       <workItem from="1672932979523" duration="2518000" />
       <workItem from="1673087339935" duration="2921000" />
       <workItem from="1673170119001" duration="169000" />
-      <workItem from="1673451176000" duration="6581000" />
+      <workItem from="1673451176000" duration="6812000" />
+      <workItem from="1673462017187" duration="2000" />
+      <workItem from="1673507156551" duration="2283000" />
+      <workItem from="1673714300344" duration="257000" />
+      <workItem from="1673773595562" duration="11934000" />
+      <workItem from="1673889626486" duration="2941000" />
+      <workItem from="1673937054563" duration="1000" />
+      <workItem from="1673954177337" duration="4039000" />
+      <workItem from="1674026786410" duration="8345000" />
     </task>
     <servers />
   </component>
@@ -105,6 +123,18 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/프로그래머스/양궁대회.js</url>
+          <line>44</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/프로그래머스/양과 늑대.js</url>
+          <line>40</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint enabled="true" type="javascript-exception" />
       </default-breakpoints>
