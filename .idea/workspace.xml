@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a15d89f-395b-462e-90a7-7c8ee7030515" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/프로그래머스/택배 배달과 수거하기.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/프로그래머스/순위 검색.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +64,9 @@
     <configuration name="양과 늑대.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="양과 늑대.js" working-dir="$PROJECT_DIR$/프로그래머스">
       <method v="2" />
     </configuration>
+    <configuration name="메뉴 리뉴얼.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="메뉴 리뉴얼.js" working-dir="$PROJECT_DIR$/프로그래머스">
+      <method v="2" />
+    </configuration>
     <configuration name="양궁대회.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/프로그래머스/양궁대회.js" working-dir="$PROJECT_DIR$/프로그래머스">
       <method v="2" />
     </configuration>
@@ -75,8 +78,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.양과 늑대.js" />
         <item itemvalue="Node.js.양궁대회.js" />
+        <item itemvalue="Node.js.양과 늑대.js" />
         <item itemvalue="Node.js.주차 요금 계산.js" />
         <item itemvalue="Node.js.두 큐 합 같게 만들기.js" />
       </list>
@@ -121,6 +124,19 @@
       <workItem from="1675777134990" duration="4503000" />
       <workItem from="1675858760156" duration="11379000" />
       <workItem from="1675874552563" duration="3000" />
+      <workItem from="1676799058493" duration="1962000" />
+      <workItem from="1676858168830" duration="598000" />
+      <workItem from="1676879866642" duration="3088000" />
+      <workItem from="1676887966048" duration="1000" />
+      <workItem from="1676948105828" duration="2106000" />
+      <workItem from="1676956770811" duration="999000" />
+      <workItem from="1676959401688" duration="5520000" />
+      <workItem from="1676982857861" duration="5767000" />
+      <workItem from="1677029399219" duration="5450000" />
+      <workItem from="1677050696467" duration="5150000" />
+      <workItem from="1677062221505" duration="31000" />
+      <workItem from="1677072928708" duration="7156000" />
+      <workItem from="1677122226306" duration="4095000" />
     </task>
     <servers />
   </component>
