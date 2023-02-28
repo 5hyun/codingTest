@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a15d89f-395b-462e-90a7-7c8ee7030515" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/프로그래머스/순위 검색.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,22 +51,22 @@
   }
 }</component>
   <component name="RunManager" selected="Node.js.양궁대회.js">
-    <configuration name="두 큐 합 같게 만들기.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="두 큐 합 같게 만들기.js" working-dir="$PROJECT_DIR$/프로그래머스">
+    <configuration name="두 큐 합 같게 만들기.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/programmers/두 큐 합 같게 만들기.js" working-dir="$PROJECT_DIR$/programmers">
       <method v="2" />
     </configuration>
-    <configuration name="주차 요금 계산.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="주차 요금 계산.js" working-dir="$PROJECT_DIR$/프로그래머스">
+    <configuration name="주차 요금 계산.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/programmers/주차 요금 계산.js" working-dir="$PROJECT_DIR$/programmers">
       <method v="2" />
     </configuration>
     <configuration name="택배 배달과 수거하기.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="택배 배달과 수거하기.js" working-dir="$PROJECT_DIR$/프로그래머스">
       <method v="2" />
     </configuration>
-    <configuration name="양과 늑대.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="양과 늑대.js" working-dir="$PROJECT_DIR$/프로그래머스">
+    <configuration name="양과 늑대.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/programmers/양과 늑대.js" working-dir="$PROJECT_DIR$/programmers">
       <method v="2" />
     </configuration>
     <configuration name="메뉴 리뉴얼.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="메뉴 리뉴얼.js" working-dir="$PROJECT_DIR$/프로그래머스">
       <method v="2" />
     </configuration>
-    <configuration name="양궁대회.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/프로그래머스/양궁대회.js" working-dir="$PROJECT_DIR$/프로그래머스">
+    <configuration name="양궁대회.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/programmers/양궁대회.js" working-dir="$PROJECT_DIR$/programmers">
       <method v="2" />
     </configuration>
     <list>
@@ -136,7 +135,7 @@
       <workItem from="1677050696467" duration="5150000" />
       <workItem from="1677062221505" duration="31000" />
       <workItem from="1677072928708" duration="7156000" />
-      <workItem from="1677122226306" duration="4095000" />
+      <workItem from="1677122226306" duration="5064000" />
     </task>
     <servers />
   </component>
