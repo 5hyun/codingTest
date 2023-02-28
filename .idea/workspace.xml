@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a15d89f-395b-462e-90a7-7c8ee7030515" name="변경" comment="">
+      <change afterPath="$PROJECT_DIR$/programmers/합승 택시 요금.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/programmers/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/programmers/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,6 +138,8 @@
       <workItem from="1677062221505" duration="31000" />
       <workItem from="1677072928708" duration="7156000" />
       <workItem from="1677122226306" duration="5064000" />
+      <workItem from="1677568260332" duration="4714000" />
+      <workItem from="1677585815383" duration="3196000" />
     </task>
     <servers />
   </component>
@@ -157,12 +161,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/프로그래머스/양궁대회.js</url>
+          <url>file://$PROJECT_DIR$/programmers/양궁대회.js</url>
           <line>44</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint type="javascript">
-          <url>file://$PROJECT_DIR$/프로그래머스/양과 늑대.js</url>
+          <url>file://$PROJECT_DIR$/programmers/양과 늑대.js</url>
           <line>40</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
