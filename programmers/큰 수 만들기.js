@@ -1,26 +1,18 @@
 function solution(number, k) {
-  let stack = [number[0]];
-  let count = 0;
+  let answer = 0;
 
-  for (let i = 1; i < number.length; i++) {
-    let now = number[i];
+  function DFS(count, index, value) {
+    if (count > k) return;
 
-    if (count < k) {
-      for (let j = stack.length - 1; j > -1; j--) {
-        if (Number(stack[j]) === 9) continue;
-        if (Number(stack[j]) < Number(now)) {
-          stack.splice(j, 1);
-          count++;
-
-          if (count === k) break;
-        }
-      }
+    if (count === k) {
+      answer = Math.max(answer, +value);
+    } else {
+      DFS(count + 1, index + 1, value + number[index]);
+      DFS(count, index + 1, value);
     }
-    stack.push(now);
   }
-  if (count !== k) stack.pop();
 
-  return stack.join("");
+  DFS(0, 0, "");
 }
 
 const number = "4321";
