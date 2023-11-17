@@ -1,18 +1,18 @@
 function solution(number, k) {
-  let answer = 0;
+  let arr = [];
 
-  function DFS(count, index, value) {
-    if (count > k) return;
-
-    if (count === k) {
-      answer = Math.max(answer, +value);
-    } else {
-      DFS(count + 1, index + 1, value + number[index]);
-      DFS(count, index + 1, value);
+  for (let i = 0; i < number.length; i++) {
+    while (arr && arr[arr.length - 1] < number[i] && k > 0) {
+      k--;
+      arr.pop();
     }
+
+    arr.push(number[i]);
   }
 
-  DFS(0, 0, "");
+  arr.splice(arr.length - k, k);
+
+  return arr.join("");
 }
 
 const number = "4321";
