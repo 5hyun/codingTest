@@ -49,8 +49,6 @@ function solution(numbers) {
       binary = "0".repeat(2 ** i - 1 - binaryLen) + binary;
     }
 
-    console.log(binary);
-
     checkTree(binary) ? answer.push(1) : answer.push(0);
   }
 
@@ -65,5 +63,3 @@ let numbers = [
 console.log(solution(numbers));
 
 console.log([0, 1, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1]);
-
-// console.log("00001".replace(/0/g, ""));
