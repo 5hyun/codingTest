@@ -1,27 +1,35 @@
 function solution(operations) {
     var answer = [];
     
-    const queue = [];
+    const queue = new Map();
     
-    operations.forEach((operation)=>{
-        const [key, num] = operation.split(' ');
+    operations.forEach((operation) => {
+        const [key, num] = operation.split(" ");
         
-        if (key === 'I') {
-            queue.push(+num);
-            queue.sort((a,b)=>a-b)
-        } else if (key === 'D') {
-            if (queue.length !== 0){
-                +num === 1 ?  
-                      queue.pop() : queue.shift(); 
+        if (key === "I") {
+            queue.has(+num) ? queue.set(+num, queue.get(+num) + 1) :
+                            queue.set(+num, 1);
+        } else {
+            const temp = [...queue.keys()].sort((a,b)=>a-b);
+                  
+            if (num === '1') {
+                 queue.get(temp[temp.length-1]) > 1 ? 
+                    queue.set(temp[temp.length-1], queue.get(temp[temp.length-1]) - 1):
+                    queue.delete(temp[temp.length-1]);
+            } else {
+                 queue.get(temp[0]) > 1 ? 
+                    queue.set(temp[0], queue.get(temp[0]) - 1):
+                    queue.delete(temp[0]);
             }
-                
         }
     })
     
+    const temp = [...queue.keys()].sort((a,b)=>a-b);
     
-    if (queue.length === 0) {
+    
+    if (queue.size === 0) {
         return [0, 0];
     } else {
-        return [queue[queue.length - 1], queue[0]]
+        return [temp[temp.length-1], temp[0]]
     }
 }
